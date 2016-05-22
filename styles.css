@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+
+#tabella {
+    border: 1px solid black;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#tabella TH, TR, TD {
+    border: 2px solid black;
+    padding: 2px;
+}
