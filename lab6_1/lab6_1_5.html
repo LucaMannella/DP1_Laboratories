@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>lab6.1.5</title>
+		<script>
+			function reset() {
+				document.getElementById("operand1").value = "";
+				document.getElementById("operand2").value = "";
+			}
+			
+			function checkValue(cell) {
+				var n = parseFloat(cell.value);
+				
+				if( (isNaN(n))||(n==="")||(n===null) ) {
+					window.alert("Invalid parameter! \nThe entered value is not a number!");
+					cell.value = "";
+					return false;
+				}
+				else return true;
+			}
+		</script>
+	</head>
+	
+	<body>
+		<form name="calculator" method="get" action="lab6_1_5.php">
+			First Operand: <input type="text" id="operand1" name="operand1" 
+					style="margin: 5px" onchange="javascript: checkValue(document.getElementById('operand1'));"> <br>
+			<select id="operation" name="operation">
+				<option value="+" selected> + </option>
+				<option value="−"> − </option>
+				<option value="×"> × </option>
+				<option value="÷"> ÷ </option>
+		    </select> <br>
+			Second Operand: <input type="text" id="operand2" name="operand2" 
+					style="margin: 5px" onchange="javascript: checkValue(document.getElementById('operand2'));"> <br>
+
+			<input type="submit" value="Send">
+			<input type="button" value="Reset" onclick="javascript: reset();">
+		</form>
+	</body>
+</html>

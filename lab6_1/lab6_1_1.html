@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>lab6.1.1</title>
+		<script>
+			function reset() {
+				cell = document.getElementById("textbox");
+				cell.value = "";
+			}
+		</script>
+	</head>
+	
+	<body>
+		<form method="get" action="lab6_1_1.php"> 
+			<p> Write a text string: <!--  <input type="text" id="textbox" name="textbox"> </p> -->
+			<br> <textarea rows="7" cols="40" id="textbox" name="textbox" style="margin-bottom: 5px; margin-top: 5px;"> Enter your text here! </textarea><br>
+			<input type="submit" value="Send">
+			<input type="button" value="Reset" onclick="javascript: reset();">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>lab6.1.2</title>
+		<script>
+			function reset() {
+				menu = document.getElementById("number");
+				menu.value="1";
+			}
+		</script>
+	</head>
+	
+	<body>
+		<form method="post" action="lab6_1_2(noJS).php"> 
+			<p> Choose a number: 
+			<select id="number" name="number">
+				<option value="1"> 1 </option>
+				<option value="2"> 2 </option>
+				<option value="3"> 3 </option>
+				<option value="4"> 4 </option>
+				<option value="5"> 5 </option>
+				<option value="6"> 6 </option>
+				<option value="7"> 7 </option>
+				<option value="8"> 8 </option>
+				<option value="9"> 9 </option>
+				<option value="10"> 10 </option>
+			</select> <br> </p>
+			<input type="submit" value="Send">
+			<input type="button" value="Reset" onclick="javascript: reset();">
+		</form>
+	</body>
+</html>
