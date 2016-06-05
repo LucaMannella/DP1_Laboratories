@@ -15,5 +15,6 @@
 		<h1>ITALIA!!!</h1>
 		<p> Do you have already seen <a href="B.php">this</a> other page?!
 		<br> And <a href="lab6_2_2.php">this</a> other page?! </p>
+		<p><i><a href="http://lukeman.altervista.org">Go back to the Home</a></i></p>
 	</body>
 </html>

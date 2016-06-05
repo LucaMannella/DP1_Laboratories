@@ -27,5 +27,6 @@
 			}
 		?>
 		<p>For removing the cookie of the exercise 6.2.1 click <a href="lab6_2_3.php">here</a>.</p>
+		<p><i><a href="http://lukeman.altervista.org">Go back to the Home</a></i></p>
 	</body>
 </html>
