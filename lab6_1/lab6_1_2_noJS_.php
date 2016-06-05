@@ -30,6 +30,6 @@
 			}
 			echo "</TABLE><BR>";
 		?>
-		<a href="lab6_1_2(noJS).html">Go back</a>
+		<a href="lab6_1_2_noJS_.html">Go back</a>
 	</body>
 </html>
